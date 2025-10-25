@@ -10,21 +10,23 @@
     <link rel="manifest" href="./favicon/site.webmanifest">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <div class="logo">
-                <a href="">B</a>Brooklyn
+                <a href="">B</a><span class="span">Brooklyn</span>
             </div>
             <ol>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Process</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="" id="home">Home</a></li>
+                <li><a href="" id="about">About</a></li>
+                <li><a href="" id="Process">Process</a></li>
+                <li><a href="" id="portfolio">Portfolio</a></li>
+                <li><a href="" id="blog">Blog</a></li>
+                <li><a href="" id="services">Services</a></li>
+                <li><a href="" id="contact">Contact</a></li>
             </ol>
         </nav>
     </header>
@@ -32,13 +34,15 @@
         <section>
             <div class="intro">
              <div>
-                <h2>Hello, I'm Brooklyn Gilbert</h2>
-                <p>I'm a Freelance UI/UX Designer and Developer based in London, England. I strives to build immersive and beautiful web
-                applications through carefully crafted code and user-centric design.</p>
+                <h2>Hello, I'm <br>Brooklyn Gilbert</h2>
+                <p>I'm a Freelance <span>UI/UX Designer </span>and <span>Developer</span> based in London, England. <br>I strives to build immersive and beautiful web
+                applications through <br>carefully crafted code and user-centric design.</p>
                 <a href="">Say Hello!</a>
-                <p class="period">15 Y. <br>Experience</p>
-                <p class="period">250+ <br>Project Completed</p>
-                <p class="period">58 <br>Happy Client</p>
+                <div class="periods">
+                <p class="period"><span>15 Y.</span> <br>Experience</p>
+                <p class="period"><span>250+</span> <br>Project Completed</p>
+                <p class="period"><span>58</span><br>Happy Client</p>
+                </div>
              </div>
              <div><img src="./images/profile pics.png" alt="profile picture"></div>
             </div>

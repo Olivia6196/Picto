@@ -9,4 +9,126 @@ body{
     background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
+    font-family: 'Work Sans', sans-serif;
+}
+
+main{
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+.logo{
+    padding: 1.2vw 0;
+    padding-left: 15vw;
+}
+
+.span{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.logo a{
+    text-decoration: none;
+    border: 0.1rem solid #a53eff;
+    background-color: #a53eff;
+    color: white;
+    padding: 0.5vw 0.8vw;
+    margin-right: 0.5vw;
+    border-radius: 50%;
+    
+}
+
+.navbar{
+    display: flex;
+    gap: 21.5vw;
+    background-color: white;
+    width: 100%;
+}
+
+.navbar ol{
+    display: flex;
+    gap: 2.1vw;
+    padding: 1.2vw 0;
+    margin-left: 2vw;
+}
+
+.navbar ol a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.82rem;
+}
+.navbar ol a:hover{
+    color: white;
+}
+#home:hover{
+    border: 0.08rem solid #a53eff;
+    background-color: #a53eff;
+    
+}
+#about:hover{
+
+}
+#process:hover{
+
+}
+#portfolio:hover{
+
+}
+#blog:hover{
+
+}
+#services:hover{
+
+}
+#contact:hover{
+
+}
+
+.intro{
+    display: flex;
+    gap: 4vw;
+}
+.intro h2{
+    font-size: 2.4rem;
+    padding-top: 8vw;
+    line-height: 1.3;
+    padding-bottom: 1.3vw;
+    letter-spacing: 0.05vw;
+    font-size: 550;
+}
+.intro p{
+    font-size: 0.7rem;
+    line-height: 1.7;
+    padding-bottom: 1.5vw;
+}
+.intro a{
+    text-decoration: none;
+    color: white;
+    border: 0.1vw solid #a53eff;
+    background-color: #a53eff;
+    padding: 0.7vw 1vw;
+    font-size: 0.72rem;
+    border-radius: 0.3vw;
+}
+.intro img{
+    width: 35vw;
+    height: 40vw;
+    position: relative;
+    left: 5.4vw;
+}
+.periods{
+    display: flex;
+    padding-top: 5vw;
+    gap: 0.5vw;
+    text-align: center;
+}
+.period span{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.period{
+    border: 0.1vw solid #f7ebff;
+    background-color: #f7ebff;
+    padding: 0 1.8vw;
+    border-radius: 0.4vw;
 }
