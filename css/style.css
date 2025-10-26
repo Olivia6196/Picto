@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 body{
@@ -9,17 +10,18 @@ body{
     background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
+    height: 100%;
     font-family: 'Work Sans', sans-serif;
 }
 
-main{
-    padding-left: 15vw;
-    padding-right: 15vw;
+.one{
+    margin-left: 17vw;
+    margin-left: 17vw;
 }
 
 .logo{
     padding: 1.2vw 0;
-    padding-left: 15vw;
+    padding-left: 17vw;
 }
 
 .span{
@@ -40,7 +42,7 @@ main{
 
 .navbar{
     display: flex;
-    gap: 21.5vw;
+    gap: 17.8vw;
     background-color: white;
     width: 100%;
 }
@@ -63,30 +65,50 @@ main{
 #home:hover{
     border: 0.08rem solid #a53eff;
     background-color: #a53eff;
-    
+    padding: 0.3vw 0.8vw;
+    border-radius: 0.3vw;
 }
 #about:hover{
-
+border: 0.08rem solid #a53eff;
+    background-color: #a53eff;
+    padding: 0.3vw 0.8vw;
+    border-radius: 0.3vw;
 }
-#process:hover{
-
+#Process:hover{
+border: 0.08rem solid #a53eff;
+    background-color: #a53eff;
+    padding: 0.3vw 0.8vw;
+    border-radius: 0.3vw;
 }
 #portfolio:hover{
-
+border: 0.08rem solid #a53eff;
+    background-color: #a53eff;
+    padding: 0.3vw 0.8vw;
+    border-radius: 0.3vw;
 }
 #blog:hover{
-
+border: 0.08rem solid #a53eff;
+    background-color: #a53eff;
+    padding: 0.3vw 0.8vw;
+    border-radius: 0.3vw;
 }
 #services:hover{
-
+    border: 0.08rem solid #a53eff;
+        background-color: #a53eff;
+        padding: 0.3vw 0.8vw;
+        border-radius: 0.3vw;
 }
 #contact:hover{
-
+border: 0.08rem solid #a53eff;
+    background-color: #a53eff;
+    padding: 0.3vw 0.8vw;
+    border-radius: 0.3vw;
 }
 
 .intro{
     display: flex;
-    gap: 4vw;
+    margin-top: 3vw;
+    margin-bottom: 28vw;
 }
 .intro h2{
     font-size: 2.4rem;
@@ -114,13 +136,14 @@ main{
     width: 35vw;
     height: 40vw;
     position: relative;
-    left: 5.4vw;
+    left: 5.2vw;
 }
 .periods{
     display: flex;
     padding-top: 5vw;
-    gap: 0.5vw;
+    gap: 0.3vw;
     text-align: center;
+    font-size: 0.7rem;
 }
 .period span{
     font-size: 1.2rem;
@@ -129,6 +152,313 @@ main{
 .period{
     border: 0.1vw solid #f7ebff;
     background-color: #f7ebff;
-    padding: 0 1.8vw;
+    padding: 0.5vw 1.8vw;
     border-radius: 0.4vw;
+}
+
+.about{
+    display: flex;
+    gap: 8vw;
+    border: 0.1vw solid white;
+    padding: 4vw 5.5vw;
+    border-radius: 0.7vw;
+    background-color: white;
+    width: 65vw;
+    position: absolute;
+    left: 17vw;
+    top: 57.5vw;
+    box-shadow: 0 0 25px #ecebeb;
+}
+.about .pics{
+    width: 20vw;
+    height: 21vw;
+    padding-left: 0.3vw;
+    position: relative;
+}
+.about h3{
+    font-size: 1.4rem;
+    font-weight: 505;
+    line-height: 1.5;
+    padding-bottom: 1.2vw;
+    letter-spacing: 0.03vw;
+}
+.about p{
+    font-size: 0.72rem;
+    line-height: 1.5;
+    width: 25vw;
+    padding-bottom: 0.6vw;
+}
+#add{
+    margin-bottom: 1.1vw;
+}
+.learn{
+    padding-top: 3vw;
+}
+.learn .bx-download{
+    font-size: 1.2rem;
+    position: relative;
+    top: 0.4vw;
+    left: -0.5vw;
+}
+.learn a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    margin-right: 1vw;
+    border: 0.1vw solid #a43dff;
+    color: #a43dff;
+    font-weight: 505;
+    padding: 0.7vw 1.5vw;
+    transition: 0.6s ease-in-out;
+}
+.learn a:hover{
+    color: white;
+    background-color: #a43dff;
+}
+.know a img{
+     margin-left: -1vw;
+     width: 3vw;
+}
+.socials{
+     position: absolute;
+     left: 8.8vw;
+     font-size: 1.5rem;
+     top: 23.2vw;
+     background-color: white;
+     padding: 0.7vw 1.2vw 0.3vw;
+     border-radius: 0.3vw;
+     box-shadow: 0 2px 20px #c0bebe;
+}
+.socials a{
+    color: #a43dff;
+}
+.socials a:hover{
+    color: white;
+    background-color: #a43dff;
+    padding: 0.4vw 0.5vw 0;
+    font-size: 1.2rem;
+    border-radius: 0.3vw;
+}
+.gray{
+     background-color: #f0f1f3;
+     margin-top: 8vw;
+}
+.experience{
+    display: flex;
+    padding-top: 9vw;
+    padding-bottom: 6vw;
+    gap: 8.7vw;
+    margin-left: 17vw;
+    margin-right: 17vw;
+}
+.work{
+    margin-top: 6vw;
+}
+.work h3{
+   font-size: 1.3rem;
+   font-weight: 505;
+   padding-bottom: 1.3vw;
+}
+
+ .grid .bx{
+    font-size: 1.7rem;
+        color: #b975f5;
+        background-color: #f5e9fd;
+        padding: 0.5vw 0.8vw;
+        margin-bottom: 0.5vw;
+        border-radius: 0.2vw;
+        transition: 0.5s;
+}
+.grid .bx:hover{
+    color: white;
+    background-color: #a43dff;
+}
+.work p{
+    width: 24vw;
+    font-size: 0.7rem;
+    line-height: 1.5;
+    padding-bottom: 1vw;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2vw;
+    overflow: visible;
+}
+.grid h4{
+    font-size: 0.9rem;
+    font-weight: 510;
+    padding-bottom: 1vw;
+}
+.grid p{
+    font-size: 0.7rem;
+    width: 13vw;
+    line-height: 1.5;
+}
+.dolor{
+    border: 0.1vw solid white;
+    padding: 1vw 1.5vw;
+    background-color: white;
+    border-radius: 0.3vw;
+}
+.dolor2{
+    border: 0.1vw solid white;
+    transform: translateY(0.7vw);
+    padding: 1vw 1.5vw;
+    background-color: white;
+    border-radius: 0.3vw;
+}
+
+.portfolio{
+    margin-left: 17vw;
+    margin-right: 17vw;
+    margin-top: 4vw;
+    padding-bottom: 2vw;
+}
+.portfolio h3{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 510;
+    letter-spacing: 0.03vw;
+    padding-bottom: 0.9vw;
+}
+.portfolio p{
+    text-align: center;
+    font-size: 0.7rem;
+    line-height: 1.5;
+    padding-bottom: 2.5vw;
+}
+.grids{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    margin-bottom: 2.5vw;
+    gap: -1vw;
+    width: 65.8vw;
+}
+.grids img{
+    width: 21vw;
+    padding-bottom: 1vw;
+}
+.grids p{
+    text-align: start;
+    padding-bottom: 0.6vw;
+    font-size: 0.7rem;
+    margin-left: 0.9vw;
+    padding-top: 1vw;
+}
+.cards h4{
+    margin-left: 0.9vw;
+    font-weight: 510;
+}
+.cards h6{
+    margin-left: 0.9vw;
+    font-weight: 500;
+    padding-bottom: 0.3vw;
+}
+.cards{
+     border: 0.1vw solid #e9e8e9;
+     width: 21vw;
+     border-radius: 0.45vw;
+     margin-bottom: 0.9vw;
+     padding-bottom: 1.5vw;
+}
+.cards:hover{
+    background-color: white;
+    border: 0.1vw solid white;
+    box-shadow: 0 0 15px #e7e7e7;
+    transform: scale(1.01);
+}
+.cards a{
+    margin-left: 0.9vw;
+    text-decoration: none;
+    border: 0.1vw solid #a43dff;
+    color: #a43cff;
+    padding: 0.5vw 1vw;
+    font-size: 0.72rem;
+    border-radius: 0.3vw;
+    transition: 0.5s;
+}
+.bx-right-arrow-alt{
+    font-size: 1rem;
+    position: relative;
+    top: 0.4vw;
+}
+.cards a:hover{
+    color: #ffffff;
+    background-color: #a43dff;
+}
+#more{
+    text-decoration: none;
+    color: white;
+    border: 0.1vw solid #a43dff;
+    background-color: #a43dff;
+    padding: 0.5vw 1vw;
+    font-size: 0.75rem;
+    border-radius: 0.3vw;
+    margin-left: 28.2vw;
+    position: relative;
+    top: -1.5vw;
+}
+
+
+.idea{
+    background-color: #132239;
+    text-align: center;
+    color: white;
+    padding-bottom: 3.5vw;
+}
+.idea h2{
+     font-size: 1.2rem;
+     font-weight: 500;
+     padding-top: 4vw;
+     padding-bottom: 1vw;
+     letter-spacing: 0.04vw;
+}
+.idea p{
+    font-size: 0.7rem;
+    line-height: 1.5;
+    padding-bottom: 0.8vw;
+}
+.idea a{
+    color: white;
+    text-decoration: none;
+        border: 0.1vw solid #a43dff;
+        background-color: #a43dff;
+        padding: 0.5vw 1vw;
+        font-size: 0.75rem;
+        border-radius: 0.3vw;
+}
+
+.blog{
+    margin-left: 17vw;
+    margin-right: 17vw;
+    margin-top: 4vw;
+    margin-bottom: 6vw;
+}
+.blog h3{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 550;
+    letter-spacing: 0.02vw;
+    padding-bottom: 0.9vw;
+    font-family: sans-serif;
+}
+.blog p{
+     text-align: center;
+     font-size: 0.7rem;
+    line-height: 1.5;
+    padding-bottom: 2vw;
+}
+.flex{
+    display: flex;
+}
+.flex img{
+    width: 15vw;
+}
+.flex p{
+    text-align: start;
+}
+
+.client{
+    margin-left: 17vw;
+    margin-right: 17vw;
 }
