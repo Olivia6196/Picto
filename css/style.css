@@ -641,6 +641,13 @@ text-decoration: none;
     padding-bottom: 2.5vw;
     padding-top: 0.5vw;
 }
+ .laptop {
+     display: block;
+ }
+
+ .tablet {
+     display: none;
+ }
 .icons{
     padding-top: 1vw;
 }
@@ -808,9 +815,13 @@ padding-left: 1vw;
                 }
         .intro p{
             font-size: 0.78rem;
+            width: 45vw;
         }
         .intro img{
-            left: -1vw;
+            left: 1vw;
+            width: 47.3vw;
+            height: 51.5vw;
+            padding-top: 5vw;
         }
     
         .about {
@@ -823,7 +834,7 @@ padding-left: 1vw;
             width: 86vw;
             position: absolute;
             left: 7vw;
-            top: 57.5vw;
+            top: 63.8vw;
             box-shadow: 0 0 25px #ecebeb;
             z-index: 1;
         }
@@ -1085,7 +1096,7 @@ padding-left: 1vw;
     
         .flex img {
             width: 20vw;
-            height: 9vw;
+            height: 12.5vw;
         }
     
         .flex p {
@@ -1124,30 +1135,16 @@ padding-left: 1vw;
     
         .works {
             display: flex;
-            gap: 8vw;
+            gap: 9vw;
             padding-top: 8vw;
             padding-bottom: 5vw;
-            margin-left: 17.2vw;
-            margin-right: 17.2vw;
-        }
-    
-        .works h3 {
-            font-size: 1.5rem;
-            letter-spacing: 0.03vw;
-            font-weight: 505;
-            padding-bottom: 2vw;
-        }
-    
-        .works h4 {
-            font-weight: 505;
-            font-size: 1rem;
-            letter-spacing: 0.03vw;
-            padding-bottom: 0.8vw;
+            margin-left: 7.3vw;
+            margin-right: 7.3vw;
         }
     
         .works p {
-            font-size: 0.7rem;
-            width: 32vw;
+            font-size: 0.78rem;
+            width: 38vw;
             line-height: 1.5;
         }
     
@@ -1156,42 +1153,14 @@ padding-left: 1vw;
         }
     
         .done p {
-            font-size: 0.7rem;
+            font-size: 0.78rem;
             padding-bottom: 1vw;
-            width: 24vw;
+            width: 35vw;
             line-height: 1.5;
         }
-    
-        #non {
-            padding-bottom: 3vw;
-        }
-    
-        .user {
-            margin-bottom: 2vw;
-            border: 0.1vw solid white;
-            background-color: white;
-            padding: 1.4vw 1.6vw;
-            border-radius: 0.3vw;
-            transition: 0.5s ease-in-out;
-        }
-    
-        .user:hover {
-            border-left: 0.3vw solid #a43dff;
-        }
-    
-        .works a {
-            text-decoration: none;
-            color: white;
-            border: 0.1vw solid #a53eff;
-            background-color: #a53eff;
-            padding: 0.7vw 1vw;
-            font-size: 0.72rem;
-            border-radius: 0.3vw;
-        }
-    
         .client {
-            margin-left: 16vw;
-            margin-right: 17vw;
+            margin-left: 6vw;
+            margin-right: 7vw;
         }
     
         .client h3 {
@@ -1205,35 +1174,26 @@ padding-left: 1vw;
     
         .client p {
             text-align: center;
-            font-size: 0.7rem;
+            font-size: 0.78rem;
             line-height: 1.5;
         }
     
         .clients {
             display: flex;
-            gap: 1vw;
+            gap: 2vw;
         }
     
         .clients img {
-            width: 10.5vw;
+            width: 15vw;
         }
     
         .review {
-            margin-bottom: 2vw;
-        }
-    
-        .review h3 {
-            font-weight: 510;
-            letter-spacing: 0.02vw;
-            padding-bottom: 0.9vw;
-            margin-top: 2vw;
-            text-align: center;
-            font-size: 1.5rem;
+            margin-bottom: 0;
         }
     
         .review p {
             text-align: center;
-            font-size: 0.7rem;
+            font-size: 0.78rem;
             line-height: 1.5;
         }
     
@@ -1246,7 +1206,7 @@ padding-left: 1vw;
             padding-top: 1vw;
             padding-bottom: 0.3vw;
             font-weight: 505;
-            font-size: 0.8rem;
+            font-size: 1rem;
         }
     
     
@@ -1262,12 +1222,12 @@ padding-left: 1vw;
             border-radius: 0.3vw;
             position: absolute;
             left: 7.2vw;
-            top: 481vw;
+            top: 521.5vw;
             box-shadow: 0 -3px 20px #dbdada;
         }
     
         .discuss {
-            margin-bottom: 3vw;
+            margin-bottom: 4vw;
         }
     
         .bottom-margin {
@@ -1283,61 +1243,40 @@ padding-left: 1vw;
         }
     
         .contact p {
-            font-size: 0.8rem;
+            font-size: 0.78rem;
             line-height: 1.5;
             padding-bottom: 1vw;
         }
     
         .form p {
-            padding-bottom: 2.5vw;
+            padding-bottom: 3.5vw;
             padding-top: 0.5vw;
         }
-    
+         .laptop{
+            display:none;
+         }
+         .tablet{
+            display: block;
+         }
         .icons {
             padding-top: 1vw;
         }
-    
-        .icons a {
-            color: #a43dff;
-            font-size: 1.2rem;
-            transition: 0.5 ease-in-out;
+        .location .where {
+            font-weight: 490;
+            padding-left: 4.9vw;
         }
-    
-        .icons a:hover {
-            color: white;
-            background-color: #a43dff;
-            padding: 0.4vw 0.4vw 0;
-            border-radius: 0.3vw;
-        }
-    
         .location {
             font-size: 0.8rem;
             padding-bottom: 0.8vw;
             padding-top: -1vw;
             padding-left: 1vw;
-            width: 15vw;
-        }
-    
-        .location:hover {
-            border: 0.1vw solid white;
-            background-color: white;
-            box-shadow: 0 0 20px #e7e7e7;
-            border-radius: 0.3vw;
-        }
-    
-        .location .locate {
-            margin-left: 0.6vw;
-        }
-    
-        .location .where {
-            font-weight: 490;
-            padding-left: 3.8vw;
+            width: 25vw;
         }
     
         .fa-location-dot {
             font-size: 1.3rem;
             position: relative;
-            top: 1.2vw;
+            top: 1.7vw;
             border: 0.1vw solid #f5e9fd;
             color: #a43dff;
             background-color: #f5e9fd;
@@ -1346,93 +1285,41 @@ padding-left: 1vw;
             transition: 0.5 ease-in-out;
         }
     
-        .fa-location-dot:hover {
-            color: white;
-            background-color: #a43dff;
-            border: 0.1vw solid #a43cff;
-        }
-    
-        .form input {
-            border: none;
-            background-color: transparent;
-        }
-    
-        input:focus {
-            outline: none;
-            background-color: transparent;
-            border: none;
-            padding-left: 1vw;
-        }
-    
-        .form textarea {
-            border: none;
-            resize: none;
-            outline: none;
-            height: 2.5vh;
-            padding-left: 1vw;
-            background-color: transparent;
-        }
-    
-        .form label {
-            font-size: 0.85rem;
-        }
-    
         .form .input {
             border-bottom: 0.13vw solid #c0bebe;
             width: 30vw;
-            margin-bottom: 1.2vw;
+            margin-bottom: 1vw;
             overflow: hidden;
             transition: 0.3s ease-in-out;
+            height: 4vw;
         }
-    
-        .form .input:hover {
-            border-bottom: 0.14vw solid #a43dff;
-            color: #a43dff;
-        }
-    
         .input2 {
             display: flex;
             gap: 1vw;
             width: 30vw;
-            height: 3vw;
+            height: 4vw;
         }
-    
-        #budg {
-            flex: 1 1 0;
-        }
-    
-        #sub {
-            flex: 1.5 1 0;
-        }
-    
         .contact button {
-            color: white;
-            border: 0.1vw solid #a53eff;
-            background-color: #a53eff;
-            padding: 0.5vw 1.2vw 0.6vw;
-            font-size: 0.72rem;
-            border-radius: 0.3vw;
-            margin-top: 2vw;
-        }
-    
+         padding: 0.5vw 1.2vw 1vw;
+                    font-size: 0.78rem;
+                    border-radius: 0.3vw;
+                    margin-top: 2vw;
+                }
         .bx-send {
             font-size: 1rem;
             position: relative;
-            top: 0.23vw;
+            top: 0.7vw;
             left: 0.3vw;
         }
-    
-    
-    
     
         .footer {
             display: flex;
             gap: 10vw;
             color: white;
             background-color: #2b384b;
-            padding-top: 8vw;
+            padding-top: 10vw;
             padding-bottom: 2vw;
-            margin-top: 35vw;
+            margin-top: 52vw;
         }
     
         .footer ul {
