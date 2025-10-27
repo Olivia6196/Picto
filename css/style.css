@@ -4,7 +4,7 @@
     overflow-x: hidden;
     overflow-y: auto;
     box-sizing: border-box;
-    scroll-padding-top: 22vw;
+    scroll-padding-top: 2vw;
     scroll-behavior: smooth;
 }
 
@@ -776,4 +776,883 @@ padding-left: 1vw;
 .foot{
     padding: 1.8vw 0;
     font-size: 0.7rem;
+}
+
+
+@media (max-width:768px) {
+    body {
+            background-image: url(../images/BG.jpg);
+            background-position: top;
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 100%;
+            font-family: 'Work Sans', sans-serif;
+        }
+    
+        .one {
+            margin-left: 7vw;
+            margin-left: 7vw;
+        }
+    
+        .logo {
+            padding: 1.2vw 0;
+            padding-left: 7vw;
+        }
+    
+        .span {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+    
+        .logo a {
+            text-decoration: none;
+            border: 0.1rem solid #a53eff;
+            background-color: #a53eff;
+            color: white;
+            padding: 0.5vw 0.8vw;
+            margin-right: 0.5vw;
+            border-radius: 50%;
+    
+        }
+    
+        .navbar {
+            display: flex;
+            gap: 17.8vw;
+            background-color: white;
+            position: fixed;
+            width: 100%;
+            z-index: 1;
+        }
+    
+        .navbar ol {
+            display: flex;
+            gap: 2.1vw;
+            padding: 1.2vw 0;
+            margin-left: 2vw;
+        }
+    
+        .navbar ol a {
+            text-decoration: none;
+            color: black;
+            font-size: 0.82rem;
+            transition: 0.3s ease-in-out;
+        }
+    
+        .navbar ol a:hover {
+            color: white;
+        }
+    
+        #home:hover {
+            border: 0.08rem solid #a53eff;
+            background-color: #a53eff;
+            padding: 0.3vw 0.8vw;
+            border-radius: 0.3vw;
+        }
+    
+        #about:hover {
+            border: 0.08rem solid #a53eff;
+            background-color: #a53eff;
+            padding: 0.3vw 0.8vw;
+            border-radius: 0.3vw;
+        }
+    
+        #Process:hover {
+            border: 0.08rem solid #a53eff;
+            background-color: #a53eff;
+            padding: 0.3vw 0.8vw;
+            border-radius: 0.3vw;
+        }
+    
+        #portfolio:hover {
+            border: 0.08rem solid #a53eff;
+            background-color: #a53eff;
+            padding: 0.3vw 0.8vw;
+            border-radius: 0.3vw;
+        }
+    
+        #blog:hover {
+            border: 0.08rem solid #a53eff;
+            background-color: #a53eff;
+            padding: 0.3vw 0.8vw;
+            border-radius: 0.3vw;
+        }
+    
+        #services:hover {
+            border: 0.08rem solid #a53eff;
+            background-color: #a53eff;
+            padding: 0.3vw 0.8vw;
+            border-radius: 0.3vw;
+        }
+    
+        #contact:hover {
+            border: 0.08rem solid #a53eff;
+            background-color: #a53eff;
+            padding: 0.3vw 0.8vw;
+            border-radius: 0.3vw;
+        }
+    
+        .intro {
+            display: flex;
+            margin-top: 5vw;
+            margin-bottom: 29vw;
+        }
+    
+        .intro h2 {
+            font-size: 2.4rem;
+            padding-top: 8vw;
+            line-height: 1.3;
+            padding-bottom: 1.3vw;
+            letter-spacing: 0.05vw;
+            font-size: 550;
+        }
+    
+        .intro p {
+            font-size: 0.7rem;
+            line-height: 1.7;
+            padding-bottom: 1.5vw;
+        }
+    
+        .intro a {
+            text-decoration: none;
+            color: white;
+            border: 0.1vw solid #a53eff;
+            background-color: #a53eff;
+            padding: 0.7vw 1vw;
+            font-size: 0.72rem;
+            border-radius: 0.3vw;
+        }
+    
+        .intro img {
+            width: 35vw;
+            height: 40vw;
+            position: relative;
+            left: 5.2vw;
+        }
+    
+        .periods {
+            display: flex;
+            padding-top: 5vw;
+            gap: 0.3vw;
+            text-align: center;
+            font-size: 0.7rem;
+        }
+    
+        .period span {
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+    
+        .period {
+            border: 0.1vw solid #f7ebff;
+            background-color: #f7ebff;
+            padding: 0.5vw 1.8vw;
+            border-radius: 0.4vw;
+        }
+    
+        .about {
+            display: flex;
+            gap: 8vw;
+            border: 0.1vw solid white;
+            padding: 4vw 5.5vw;
+            border-radius: 0.7vw;
+            background-color: white;
+            width: 65vw;
+            position: absolute;
+            left: 17vw;
+            top: 57.5vw;
+            box-shadow: 0 0 25px #ecebeb;
+        }
+    
+        .about .pics {
+            width: 20vw;
+            height: 21vw;
+            padding-left: 0.3vw;
+            position: relative;
+        }
+    
+        .about h3 {
+            font-size: 1.4rem;
+            font-weight: 505;
+            line-height: 1.5;
+            padding-bottom: 1.2vw;
+            letter-spacing: 0.03vw;
+        }
+    
+        .about p {
+            font-size: 0.72rem;
+            line-height: 1.5;
+            width: 25vw;
+            padding-bottom: 0.6vw;
+        }
+    
+        #add {
+            margin-bottom: 1.1vw;
+        }
+    
+        .learn {
+            padding-top: 3vw;
+        }
+    
+        .learn .bx-download {
+            font-size: 1.2rem;
+            position: relative;
+            top: 0.4vw;
+            left: -0.5vw;
+        }
+    
+        .learn a {
+            text-decoration: none;
+            font-size: 0.7rem;
+            margin-right: 1vw;
+            border: 0.1vw solid #a43dff;
+            color: #a43dff;
+            font-weight: 505;
+            padding: 0.7vw 1.5vw;
+            transition: 0.6s ease-in-out;
+        }
+    
+        .learn a:hover {
+            color: white;
+            background-color: #a43dff;
+        }
+    
+        .know a img {
+            margin-left: -1vw;
+            width: 3vw;
+        }
+    
+        .socials {
+            position: absolute;
+            left: 9.8vw;
+            font-size: 1.2rem;
+            top: 23.4vw;
+            background-color: white;
+            padding: 0.7vw 1.2vw 0.3vw;
+            border-radius: 0.3vw;
+            box-shadow: 0 2px 20px #c0bebe;
+            transition: 0.5s ease-in-out;
+        }
+    
+        .socials a {
+            color: #a43dff;
+        }
+    
+        .socials a:hover {
+            color: white;
+            background-color: #a43dff;
+            padding: 0.4vw 0.5vw 0;
+            border-radius: 0.3vw;
+        }
+    
+        .gray {
+            background-color: #f0f1f3;
+            margin-top: 8vw;
+        }
+    
+        .experience {
+            display: flex;
+            padding-top: 9vw;
+            padding-bottom: 6vw;
+            gap: 8.7vw;
+            margin-left: 17vw;
+            margin-right: 17vw;
+        }
+    
+        .work {
+            margin-top: 6vw;
+        }
+    
+        .work h3 {
+            font-size: 1.3rem;
+            font-weight: 505;
+            padding-bottom: 1.3vw;
+        }
+    
+        .grid .bx {
+            font-size: 1.7rem;
+            color: #b975f5;
+            background-color: #f5e9fd;
+            padding: 0.5vw 0.8vw;
+            margin-bottom: 0.5vw;
+            border-radius: 0.2vw;
+            transition: 0.5s ease-in-out;
+        }
+    
+        .grid .bx:hover {
+            color: white;
+            background-color: #a43dff;
+        }
+    
+        .work p {
+            width: 24vw;
+            font-size: 0.7rem;
+            line-height: 1.5;
+            padding-bottom: 1vw;
+        }
+    
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.2vw;
+            overflow: visible;
+        }
+    
+        .grid h4 {
+            font-size: 0.9rem;
+            font-weight: 510;
+            padding-bottom: 1vw;
+        }
+    
+        .grid p {
+            font-size: 0.7rem;
+            width: 13vw;
+            line-height: 1.5;
+        }
+    
+        .dolor {
+            border: 0.1vw solid white;
+            padding: 1vw 1.5vw;
+            background-color: white;
+            border-radius: 0.3vw;
+        }
+    
+        .dolor2 {
+            border: 0.1vw solid white;
+            transform: translateY(0.7vw);
+            padding: 1vw 1.5vw;
+            background-color: white;
+            border-radius: 0.3vw;
+        }
+    
+        .portfolio {
+            margin-left: 17vw;
+            margin-right: 17vw;
+            margin-top: 4vw;
+            padding-bottom: 2vw;
+        }
+    
+        .portfolio h3 {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 510;
+            letter-spacing: 0.03vw;
+            padding-bottom: 0.9vw;
+        }
+    
+        .portfolio p {
+            text-align: center;
+            font-size: 0.7rem;
+            line-height: 1.5;
+            padding-bottom: 2.5vw;
+        }
+    
+        .grids {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            margin-bottom: 2.5vw;
+            gap: -1vw;
+            width: 65.8vw;
+        }
+    
+        .grids img {
+            width: 21vw;
+            padding-bottom: 1vw;
+        }
+    
+        .grids p {
+            text-align: start;
+            padding-bottom: 0.6vw;
+            font-size: 0.7rem;
+            margin-left: 0.9vw;
+            padding-top: 1vw;
+        }
+    
+        .cards h4 {
+            margin-left: 0.9vw;
+            font-weight: 510;
+        }
+    
+        .cards h6 {
+            margin-left: 0.9vw;
+            font-weight: 500;
+            padding-bottom: 0.3vw;
+        }
+    
+        .cards {
+            border: 0.1vw solid #e9e8e9;
+            width: 21vw;
+            border-radius: 0.45vw;
+            margin-bottom: 0.9vw;
+            padding-bottom: 1.5vw;
+            transition: 0.3s ease-in-out;
+        }
+    
+        .cards:hover {
+            background-color: white;
+            border: 0.1vw solid white;
+            box-shadow: 0 0 15px #e7e7e7;
+            transform: scale(1.01);
+        }
+    
+        .cards a {
+            margin-left: 0.9vw;
+            text-decoration: none;
+            border: 0.1vw solid #a43dff;
+            color: #a43cff;
+            padding: 0.5vw 1vw;
+            font-size: 0.72rem;
+            border-radius: 0.3vw;
+            transition: 0.5s ease-in-out;
+        }
+    
+        .bx-right-arrow-alt {
+            font-size: 1rem;
+            position: relative;
+            top: 0.4vw;
+        }
+    
+        .cards a:hover {
+            color: #ffffff;
+            background-color: #a43dff;
+        }
+    
+        #more {
+            text-decoration: none;
+            color: white;
+            border: 0.1vw solid #a43dff;
+            background-color: #a43dff;
+            padding: 0.5vw 1vw;
+            font-size: 0.75rem;
+            border-radius: 0.3vw;
+            margin-left: 28.2vw;
+            position: relative;
+            top: -1.5vw;
+        }
+    
+    
+        .idea {
+            background-color: #132239;
+            text-align: center;
+            color: white;
+            padding-bottom: 3.5vw;
+        }
+    
+        .idea h2 {
+            font-size: 1.2rem;
+            font-weight: 500;
+            padding-top: 4vw;
+            padding-bottom: 1vw;
+            letter-spacing: 0.04vw;
+        }
+    
+        .idea p {
+            font-size: 0.7rem;
+            line-height: 1.5;
+            padding-bottom: 0.8vw;
+        }
+    
+        .idea a {
+            color: white;
+            text-decoration: none;
+            border: 0.1vw solid #a43dff;
+            background-color: #a43dff;
+            padding: 0.5vw 1vw;
+            font-size: 0.75rem;
+            border-radius: 0.3vw;
+        }
+    
+        .blog {
+            margin-left: 17.5vw;
+            margin-right: 17.5vw;
+            margin-top: 4vw;
+        }
+    
+        .blog h3 {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 550;
+            letter-spacing: 0.02vw;
+            padding-bottom: 0.9vw;
+            font-family: sans-serif;
+        }
+    
+        .blog p {
+            text-align: center;
+            font-size: 0.7rem;
+            line-height: 1.5;
+            padding-bottom: 2vw;
+        }
+    
+        .flex {
+            display: flex;
+            gap: 1.5vw;
+            padding-bottom: 1vw;
+        }
+    
+        .flex img {
+            width: 15vw;
+            height: 9vw;
+        }
+    
+        .flex p {
+            text-align: start;
+            font-weight: 500;
+            padding-left: 1.2vw;
+        }
+    
+        .flex h6 {
+            font-size: 0.6rem;
+            font-weight: 100;
+            padding-bottom: 0.8vw;
+            padding-top: 0.8vw;
+            padding-left: 1.2vw;
+            color: #0707079c;
+        }
+    
+        .blogs {
+            border: 0.1vw solid #ecebeb;
+        }
+    
+        .blogs:hover {
+            background-color: white;
+            border: 0.1vw solid #fcfbfb;
+            box-shadow: 0 0 15px #e9e8e9;
+        }
+    
+        .pagination {
+            text-align: center;
+        }
+    
+        .paginations {
+            text-align: center;
+            padding: 2vw 0 0;
+        }
+    
+        .works {
+            display: flex;
+            gap: 8vw;
+            padding-top: 8vw;
+            padding-bottom: 5vw;
+            margin-left: 17.2vw;
+            margin-right: 17.2vw;
+        }
+    
+        .works h3 {
+            font-size: 1.5rem;
+            letter-spacing: 0.03vw;
+            font-weight: 505;
+            padding-bottom: 2vw;
+        }
+    
+        .works h4 {
+            font-weight: 505;
+            font-size: 1rem;
+            letter-spacing: 0.03vw;
+            padding-bottom: 0.8vw;
+        }
+    
+        .works p {
+            font-size: 0.7rem;
+            width: 32vw;
+            line-height: 1.5;
+        }
+    
+        .done {
+            padding-top: 7vw;
+        }
+    
+        .done p {
+            font-size: 0.7rem;
+            padding-bottom: 1vw;
+            width: 24vw;
+            line-height: 1.5;
+        }
+    
+        #non {
+            padding-bottom: 3vw;
+        }
+    
+        .user {
+            margin-bottom: 2vw;
+            border: 0.1vw solid white;
+            background-color: white;
+            padding: 1.4vw 1.6vw;
+            border-radius: 0.3vw;
+            transition: 0.5s ease-in-out;
+        }
+    
+        .user:hover {
+            border-left: 0.3vw solid #a43dff;
+        }
+    
+        .works a {
+            text-decoration: none;
+            color: white;
+            border: 0.1vw solid #a53eff;
+            background-color: #a53eff;
+            padding: 0.7vw 1vw;
+            font-size: 0.72rem;
+            border-radius: 0.3vw;
+        }
+    
+        .client {
+            margin-left: 16vw;
+            margin-right: 17vw;
+        }
+    
+        .client h3 {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 510;
+            letter-spacing: 0.02vw;
+            padding-bottom: 0.9vw;
+            margin-top: 5vw;
+        }
+    
+        .client p {
+            text-align: center;
+            font-size: 0.7rem;
+            line-height: 1.5;
+        }
+    
+        .clients {
+            display: flex;
+            gap: 1vw;
+        }
+    
+        .clients img {
+            width: 10.5vw;
+        }
+    
+        .review {
+            margin-bottom: 2vw;
+        }
+    
+        .review h3 {
+            font-weight: 510;
+            letter-spacing: 0.02vw;
+            padding-bottom: 0.9vw;
+            margin-top: 2vw;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+    
+        .review p {
+            text-align: center;
+            font-size: 0.7rem;
+            line-height: 1.5;
+        }
+    
+        .customer-review {
+            padding-top: 2.2vw;
+            font-weight: 490;
+        }
+    
+        .review .customer-name {
+            padding-top: 1vw;
+            padding-bottom: 0.3vw;
+            font-weight: 505;
+            font-size: 0.8rem;
+        }
+    
+    
+        .contact {
+            display: flex;
+            margin-top: 2vw;
+            padding-bottom: 2vw;
+            gap: 4vw;
+            width: 65vw;
+            padding: 3vw 2.5vw 0;
+            background-color: white;
+            border: 0.1px solid #fcf9f9;
+            border-radius: 0.3vw;
+            position: absolute;
+            left: 17.2vw;
+            top: 341vw;
+            box-shadow: 0 -3px 20px #dbdada;
+        }
+    
+        .discuss {
+            margin-bottom: 3vw;
+        }
+    
+        .bottom-margin {
+            margin-bottom: 1vw;
+            padding: 0.3vw 0;
+        }
+    
+        .discuss h3 {
+            font-weight: 510;
+            letter-spacing: 0.02vw;
+            padding-bottom: 0.9vw;
+            font-size: 1.4rem;
+        }
+    
+        .contact p {
+            font-size: 0.8rem;
+            line-height: 1.5;
+            padding-bottom: 1vw;
+        }
+    
+        .form p {
+            padding-bottom: 2.5vw;
+            padding-top: 0.5vw;
+        }
+    
+        .icons {
+            padding-top: 1vw;
+        }
+    
+        .icons a {
+            color: #a43dff;
+            font-size: 1.2rem;
+            transition: 0.5 ease-in-out;
+        }
+    
+        .icons a:hover {
+            color: white;
+            background-color: #a43dff;
+            padding: 0.4vw 0.4vw 0;
+            border-radius: 0.3vw;
+        }
+    
+        .location {
+            font-size: 0.8rem;
+            padding-bottom: 0.8vw;
+            padding-top: -1vw;
+            padding-left: 1vw;
+            width: 15vw;
+        }
+    
+        .location:hover {
+            border: 0.1vw solid white;
+            background-color: white;
+            box-shadow: 0 0 20px #e7e7e7;
+            border-radius: 0.3vw;
+        }
+    
+        .location .locate {
+            margin-left: 0.6vw;
+        }
+    
+        .location .where {
+            font-weight: 490;
+            padding-left: 3.8vw;
+        }
+    
+        .fa-location-dot {
+            font-size: 1.3rem;
+            position: relative;
+            top: 1.2vw;
+            border: 0.1vw solid #f5e9fd;
+            color: #a43dff;
+            background-color: #f5e9fd;
+            padding: 0.5vw 0.8vw;
+            border-radius: 0.3vw;
+            transition: 0.5 ease-in-out;
+        }
+    
+        .fa-location-dot:hover {
+            color: white;
+            background-color: #a43dff;
+            border: 0.1vw solid #a43cff;
+        }
+    
+        .form input {
+            border: none;
+            background-color: transparent;
+        }
+    
+        input:focus {
+            outline: none;
+            background-color: transparent;
+            border: none;
+            padding-left: 1vw;
+        }
+    
+        .form textarea {
+            border: none;
+            resize: none;
+            outline: none;
+            height: 2.5vh;
+            padding-left: 1vw;
+            background-color: transparent;
+        }
+    
+        .form label {
+            font-size: 0.85rem;
+        }
+    
+        .form .input {
+            border-bottom: 0.13vw solid #c0bebe;
+            width: 30vw;
+            margin-bottom: 1.2vw;
+            overflow: hidden;
+            transition: 0.3s ease-in-out;
+        }
+    
+        .form .input:hover {
+            border-bottom: 0.14vw solid #a43dff;
+            color: #a43dff;
+        }
+    
+        .input2 {
+            display: flex;
+            gap: 1vw;
+            width: 30vw;
+            height: 3vw;
+        }
+    
+        #budg {
+            flex: 1 1 0;
+        }
+    
+        #sub {
+            flex: 1.5 1 0;
+        }
+    
+        .contact button {
+            color: white;
+            border: 0.1vw solid #a53eff;
+            background-color: #a53eff;
+            padding: 0.5vw 1.2vw 0.6vw;
+            font-size: 0.72rem;
+            border-radius: 0.3vw;
+            margin-top: 2vw;
+        }
+    
+        .bx-send {
+            font-size: 1rem;
+            position: relative;
+            top: 0.23vw;
+            left: 0.3vw;
+        }
+    
+    
+    
+    
+        .footer {
+            display: flex;
+            gap: 10vw;
+            color: white;
+            background-color: #2b384b;
+            padding-top: 8vw;
+            padding-bottom: 2vw;
+            margin-top: 35vw;
+        }
+    
+        .footer ul {
+            display: flex;
+            gap: 1vw;
+        }
+    
+        .footer a {
+            text-decoration: none;
+            color: white;
+        }
+    
+        .foot {
+            padding: 1.8vw 0;
+            font-size: 0.7rem;
+        }
 }
