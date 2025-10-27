@@ -8,7 +8,7 @@
 body{
     background-image: url(../images/BG.jpg);
     background-position: top;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
     font-family: 'Work Sans', sans-serif;
