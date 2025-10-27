@@ -49,7 +49,7 @@ body{
     background-color: white;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 10;
 }
 
 .navbar ol{
@@ -798,234 +798,61 @@ padding-left: 1vw;
             padding: 1.2vw 0;
             padding-left: 7vw;
         }
-    
-        .span {
-            font-size: 1.2rem;
-            font-weight: 600;
+                .navbar {
+                    display: flex;
+                    gap: 16vw;
+                    background-color: white;
+                    position: fixed;
+                    width: 100%;
+                    z-index: 10;
+                }
+        .intro p{
+            font-size: 0.78rem;
         }
-    
-        .logo a {
-            text-decoration: none;
-            border: 0.1rem solid #a53eff;
-            background-color: #a53eff;
-            color: white;
-            padding: 0.5vw 0.8vw;
-            margin-right: 0.5vw;
-            border-radius: 50%;
-    
-        }
-    
-        .navbar {
-            display: flex;
-            gap: 17.8vw;
-            background-color: white;
-            position: fixed;
-            width: 100%;
-            z-index: 1;
-        }
-    
-        .navbar ol {
-            display: flex;
-            gap: 2.1vw;
-            padding: 1.2vw 0;
-            margin-left: 2vw;
-        }
-    
-        .navbar ol a {
-            text-decoration: none;
-            color: black;
-            font-size: 0.82rem;
-            transition: 0.3s ease-in-out;
-        }
-    
-        .navbar ol a:hover {
-            color: white;
-        }
-    
-        #home:hover {
-            border: 0.08rem solid #a53eff;
-            background-color: #a53eff;
-            padding: 0.3vw 0.8vw;
-            border-radius: 0.3vw;
-        }
-    
-        #about:hover {
-            border: 0.08rem solid #a53eff;
-            background-color: #a53eff;
-            padding: 0.3vw 0.8vw;
-            border-radius: 0.3vw;
-        }
-    
-        #Process:hover {
-            border: 0.08rem solid #a53eff;
-            background-color: #a53eff;
-            padding: 0.3vw 0.8vw;
-            border-radius: 0.3vw;
-        }
-    
-        #portfolio:hover {
-            border: 0.08rem solid #a53eff;
-            background-color: #a53eff;
-            padding: 0.3vw 0.8vw;
-            border-radius: 0.3vw;
-        }
-    
-        #blog:hover {
-            border: 0.08rem solid #a53eff;
-            background-color: #a53eff;
-            padding: 0.3vw 0.8vw;
-            border-radius: 0.3vw;
-        }
-    
-        #services:hover {
-            border: 0.08rem solid #a53eff;
-            background-color: #a53eff;
-            padding: 0.3vw 0.8vw;
-            border-radius: 0.3vw;
-        }
-    
-        #contact:hover {
-            border: 0.08rem solid #a53eff;
-            background-color: #a53eff;
-            padding: 0.3vw 0.8vw;
-            border-radius: 0.3vw;
-        }
-    
-        .intro {
-            display: flex;
-            margin-top: 5vw;
-            margin-bottom: 29vw;
-        }
-    
-        .intro h2 {
-            font-size: 2.4rem;
-            padding-top: 8vw;
-            line-height: 1.3;
-            padding-bottom: 1.3vw;
-            letter-spacing: 0.05vw;
-            font-size: 550;
-        }
-    
-        .intro p {
-            font-size: 0.7rem;
-            line-height: 1.7;
-            padding-bottom: 1.5vw;
-        }
-    
-        .intro a {
-            text-decoration: none;
-            color: white;
-            border: 0.1vw solid #a53eff;
-            background-color: #a53eff;
-            padding: 0.7vw 1vw;
-            font-size: 0.72rem;
-            border-radius: 0.3vw;
-        }
-    
-        .intro img {
-            width: 35vw;
-            height: 40vw;
-            position: relative;
-            left: 5.2vw;
-        }
-    
-        .periods {
-            display: flex;
-            padding-top: 5vw;
-            gap: 0.3vw;
-            text-align: center;
-            font-size: 0.7rem;
-        }
-    
-        .period span {
-            font-size: 1.2rem;
-            font-weight: 500;
-        }
-    
-        .period {
-            border: 0.1vw solid #f7ebff;
-            background-color: #f7ebff;
-            padding: 0.5vw 1.8vw;
-            border-radius: 0.4vw;
+        .intro img{
+            left: -1vw;
         }
     
         .about {
             display: flex;
-            gap: 8vw;
+            gap: 5.5vw;
             border: 0.1vw solid white;
             padding: 4vw 5.5vw;
             border-radius: 0.7vw;
             background-color: white;
-            width: 65vw;
+            width: 86vw;
             position: absolute;
-            left: 17vw;
+            left: 7vw;
             top: 57.5vw;
             box-shadow: 0 0 25px #ecebeb;
+            z-index: 1;
         }
     
         .about .pics {
-            width: 20vw;
-            height: 21vw;
+            width: 22vw;
+            height: 23vw;
             padding-left: 0.3vw;
             position: relative;
         }
     
-        .about h3 {
-            font-size: 1.4rem;
-            font-weight: 505;
-            line-height: 1.5;
-            padding-bottom: 1.2vw;
-            letter-spacing: 0.03vw;
-        }
     
         .about p {
-            font-size: 0.72rem;
+            font-size: 0.78rem;
             line-height: 1.5;
-            width: 25vw;
+            width: 50vw;
             padding-bottom: 0.6vw;
         }
     
-        #add {
-            margin-bottom: 1.1vw;
-        }
-    
         .learn {
-            padding-top: 3vw;
-        }
-    
-        .learn .bx-download {
-            font-size: 1.2rem;
-            position: relative;
-            top: 0.4vw;
-            left: -0.5vw;
-        }
-    
-        .learn a {
-            text-decoration: none;
-            font-size: 0.7rem;
-            margin-right: 1vw;
-            border: 0.1vw solid #a43dff;
-            color: #a43dff;
-            font-weight: 505;
-            padding: 0.7vw 1.5vw;
-            transition: 0.6s ease-in-out;
-        }
-    
-        .learn a:hover {
-            color: white;
-            background-color: #a43dff;
-        }
-    
-        .know a img {
-            margin-left: -1vw;
-            width: 3vw;
+            padding-top: 0;
+            padding-bottom: 1vw;
         }
     
         .socials {
             position: absolute;
-            left: 9.8vw;
+            left: 7vw;
             font-size: 1.2rem;
-            top: 23.4vw;
+            top: 24.8vw;
             background-color: white;
             padding: 0.7vw 1.2vw 0.3vw;
             border-radius: 0.3vw;
@@ -1033,29 +860,18 @@ padding-left: 1vw;
             transition: 0.5s ease-in-out;
         }
     
-        .socials a {
-            color: #a43dff;
-        }
-    
-        .socials a:hover {
-            color: white;
-            background-color: #a43dff;
-            padding: 0.4vw 0.5vw 0;
-            border-radius: 0.3vw;
-        }
-    
         .gray {
             background-color: #f0f1f3;
-            margin-top: 8vw;
+            margin-top: 10vw;
         }
     
         .experience {
             display: flex;
             padding-top: 9vw;
             padding-bottom: 6vw;
-            gap: 8.7vw;
-            margin-left: 17vw;
-            margin-right: 17vw;
+            gap: 3.7vw;
+            margin-left: 7vw;
+            margin-right: 7vw;
         }
     
         .work {
@@ -1084,8 +900,8 @@ padding-left: 1vw;
         }
     
         .work p {
-            width: 24vw;
-            font-size: 0.7rem;
+            width: 38vw;
+            font-size: 0.78rem;
             line-height: 1.5;
             padding-bottom: 1vw;
         }
@@ -1104,8 +920,8 @@ padding-left: 1vw;
         }
     
         .grid p {
-            font-size: 0.7rem;
-            width: 13vw;
+            font-size: 0.78rem;
+            width: 18vw;
             line-height: 1.5;
         }
     
@@ -1125,8 +941,8 @@ padding-left: 1vw;
         }
     
         .portfolio {
-            margin-left: 17vw;
-            margin-right: 17vw;
+            margin-left: 7vw;
+            margin-right: 7vw;
             margin-top: 4vw;
             padding-bottom: 2vw;
         }
@@ -1141,28 +957,29 @@ padding-left: 1vw;
     
         .portfolio p {
             text-align: center;
-            font-size: 0.7rem;
+            font-size: 0.78rem;
             line-height: 1.5;
             padding-bottom: 2.5vw;
         }
     
         .grids {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            margin-bottom: 2.5vw;
-            gap: -1vw;
-            width: 65.8vw;
+            grid-template-columns: repeat(2, 1fr);
+            margin-bottom: 3.5vw;
+            gap: 3vw;
+            width: 87vw;
         }
     
         .grids img {
-            width: 21vw;
+            width: 40vw;
+            height: 20vw;
             padding-bottom: 1vw;
         }
     
         .grids p {
             text-align: start;
             padding-bottom: 0.6vw;
-            font-size: 0.7rem;
+            font-size: 0.78rem;
             margin-left: 0.9vw;
             padding-top: 1vw;
         }
@@ -1180,40 +997,16 @@ padding-left: 1vw;
     
         .cards {
             border: 0.1vw solid #e9e8e9;
-            width: 21vw;
+            width: 40vw;
             border-radius: 0.45vw;
-            margin-bottom: 0.9vw;
-            padding-bottom: 1.5vw;
+            margin-bottom: 1.2vw;
+            padding-bottom: 2vw;
             transition: 0.3s ease-in-out;
         }
-    
-        .cards:hover {
-            background-color: white;
-            border: 0.1vw solid white;
-            box-shadow: 0 0 15px #e7e7e7;
-            transform: scale(1.01);
-        }
-    
-        .cards a {
-            margin-left: 0.9vw;
-            text-decoration: none;
-            border: 0.1vw solid #a43dff;
-            color: #a43cff;
-            padding: 0.5vw 1vw;
-            font-size: 0.72rem;
-            border-radius: 0.3vw;
-            transition: 0.5s ease-in-out;
-        }
-    
-        .bx-right-arrow-alt {
+    .bx-right-arrow-alt {
             font-size: 1rem;
             position: relative;
-            top: 0.4vw;
-        }
-    
-        .cards a:hover {
-            color: #ffffff;
-            background-color: #a43dff;
+            top: 0.5vw;
         }
     
         #more {
@@ -1222,9 +1015,9 @@ padding-left: 1vw;
             border: 0.1vw solid #a43dff;
             background-color: #a43dff;
             padding: 0.5vw 1vw;
-            font-size: 0.75rem;
+            font-size: 0.8rem;
             border-radius: 0.3vw;
-            margin-left: 28.2vw;
+            margin-left: 36.5vw;
             position: relative;
             top: -1.5vw;
         }
@@ -1240,15 +1033,15 @@ padding-left: 1vw;
         .idea h2 {
             font-size: 1.2rem;
             font-weight: 500;
-            padding-top: 4vw;
-            padding-bottom: 1vw;
+            padding-top: 5vw;
+            padding-bottom: 2vw;
             letter-spacing: 0.04vw;
         }
     
         .idea p {
-            font-size: 0.7rem;
+            font-size: 0.78rem;
             line-height: 1.5;
-            padding-bottom: 0.8vw;
+            padding-bottom: 1vw;
         }
     
         .idea a {
@@ -1262,8 +1055,8 @@ padding-left: 1vw;
         }
     
         .blog {
-            margin-left: 17.5vw;
-            margin-right: 17.5vw;
+            margin-left: 7.5vw;
+            margin-right: 7.5vw;
             margin-top: 4vw;
         }
     
@@ -1278,7 +1071,7 @@ padding-left: 1vw;
     
         .blog p {
             text-align: center;
-            font-size: 0.7rem;
+            font-size: 0.78rem;
             line-height: 1.5;
             padding-bottom: 2vw;
         }
@@ -1287,10 +1080,11 @@ padding-left: 1vw;
             display: flex;
             gap: 1.5vw;
             padding-bottom: 1vw;
+            padding-top: 1vw;
         }
     
         .flex img {
-            width: 15vw;
+            width: 20vw;
             height: 9vw;
         }
     
@@ -1461,14 +1255,14 @@ padding-left: 1vw;
             margin-top: 2vw;
             padding-bottom: 2vw;
             gap: 4vw;
-            width: 65vw;
+            width: 86vw;
             padding: 3vw 2.5vw 0;
             background-color: white;
             border: 0.1px solid #fcf9f9;
             border-radius: 0.3vw;
             position: absolute;
-            left: 17.2vw;
-            top: 341vw;
+            left: 7.2vw;
+            top: 481vw;
             box-shadow: 0 -3px 20px #dbdada;
         }
     
