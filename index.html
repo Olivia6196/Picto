@@ -159,49 +159,49 @@
             <h3>Blog</h3>
             <p>There are many variations of passages of Lorem Ipsum available,<br>but the majority have suffered alteration.</p>
             <div class="flex">
-                <div>
+                <div class="blogs">
                     <img src="./images/blog1.png" alt="posts">
                     <h6>22 Oct, 2020/246 Comments</h6>
-                    <p>Lorem ipsum dolor sit consea. Nulla purus arcu</p>
+                    <p>Lorem ipsum dolor sit <br>consea. Nulla purus arcu</p>
                 </div>
-                <div>
+                <div class="blogs">
                     <img src="./images/blog2.png" alt="posts">
                     <h6>22 Oct, 2020/246 Comments</h6>
-                    <p>Lorem ipsum dolor sit consea. Nulla purus arcu</p>
+                    <p>Lorem ipsum dolor sit <br>consea. Nulla purus arcu</p>
                 </div>
-                <div>
+                <div class="blogs">
                     <img src="./images/blog3.png" alt="posts">
                     <h6>22 Oct, 2020/246 Comments</h6>
-                    <p>Lorem ipsum dolor sit consea. Nulla purus arcu</p>
+                    <p>Lorem ipsum dolor sit <br>consea. Nulla purus arcu</p>
                 </div>
-                <div>
+                <div class="blogs">
                     <img src="./images/blog4.png" alt="posts">
                     <h6>22 Oct, 2020/246 Comments</h6>
-                    <p>Lorem ipsum dolor sit consea. Nulla purus arcu</p>
+                    <p>Lorem ipsum dolor sit <br>consea. Nulla purus arcu</p>
                 </div>
             </div>
         </section>
-        <section>
+        <section class="gray">
             <div class="works">
-                <div>
+                <div class="done">
                     <h3>What I do?</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non, laoreet imperdiet
                     orci. Mauris ultrices eget lorem ac vestibulum. Suspendis imperdiet,</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non.</p>
+                    <p id="non">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non.</p>
                     <a href="">Say Hello!</a>
                 </div>
                 <div>
-                    <div>
+                    <div class="user">
                         <h4>User Experience (UX)</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non, laoreet imperdiet
                         orci. Mauris ultrices eget lorem ac vestibulum.</p>
                     </div>
-                    <div>
+                    <div class="user">
                         <h4>User Interface (UI)</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non, laoreet imperdiet
                         orci. Mauris ultrices eget lorem ac vestibulum.</p>
                     </div>
-                    <div>
+                    <div class="user">
                         <h4>Web Development</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non, laoreet imperdiet
                         orci. Mauris ultrices eget lorem ac vestibulum.</p>
@@ -232,22 +232,24 @@
             <p class="customer-name">Esther Howard</p>
             <p class="customer-postion">Managing Director, ABC company</p>
         </section>
-        <section class="one">
+        <section>
              <div class="contact">
-                <div>
+                <div class="discuss">
                     <h3>Let's discuss your Project</h3>
                     <p>There are many variations of passages of Lorem Ipsu <br>available. but the majority have suffered alte.</p>
-                    <div>
-                        <i class="fa-solid fa-location-dot"></i>
-                        Address: <br>New Mexico 31134
-                    </div>
-                    <div>
-                        <i class="fa-solid fa-location-dot"></i>
-                        My Email: <br>mymail@mail.com
-                    </div>
-                    <div>
-                        <i class="fa-solid fa-location-dot"></i>
-                        Call Me Now: <br>00-1234 00000
+                    <div class="bottom-margin">
+                        <div class="location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span class="locate">Address: <br><span class="where">New Mexico 31134</span></span>
+                        </div>
+                        <div class="location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span class="locate">My Email: <br><span class="where">mymail@mail.com</span></span>
+                        </div>
+                        <div class="location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span class="locate">Call Me Now: <br><span class="where">00-1234 00000</span></span>
+                        </div>
                     </div>
                     <div class="icons">
                         <a href=""><i class='bx bxl-facebook'></i></a>
@@ -257,26 +259,35 @@
                         <a href=""><i class='bx bxl-linkedin'></i></a>
                     </div>
                 </div>
-                <div>
+                <div class="form">
                     <p>There are many variations of passages of Lorem Ipsum available,<br>but the majority have suffered alteration.</p>
                     <form action="mailto:mymail@gmail.com" method="post">
-                        <label for="name">Name*</label>
-                        <input type="text" id="name" name="text">
-                        <br><br>
-                        <label for="email">Email*</label>
-                        <input type="email" id="email" name="email">
-                        <br><br>
-                        <label for="location">Location*</label>
-                        <input type="text" id="location" name="location">
-                        <br><br>
-                        <label for="budget">Budget*</label>
-                        <input type="number" id="budget" name="budget">
-                        <label for="subject">Subject*</label>
-                        <input type="text" name="subject" id="subject">
-                        <br><br>
-                        <label for="Message">Message*</label>
-                        <textarea name="Message" id="Message"></textarea>
-                        <br><br>
+                        <div class="input">
+                            <label for="name">Name*</label>
+                            <input type="text" id="name" name="text">
+                            </div>
+                             <div class="input">
+                                <label for="email">Email*</label>
+                                <input type="email" id="email" name="email">
+                             </div>
+                            <div class="input">
+                                <label for="location">Location*</label>
+                                <input type="text" id="location" name="location">
+                            </div>
+                            <div class="input2">
+                                <div class="input" id="budg">
+                                    <label for="budget">Budget*</label>
+                                    <input type="number" id="budget" name="budget">
+                                </div>
+                                <div class="input" id="sub">
+                                    <label for="subject">Subject*</label>
+                                    <input type="text" name="subject" id="subject">
+                                </div>
+                            </div>
+                            <div class="input">
+                                <label for="Message">Message*</label>
+                                <textarea name="Message" id="Message"></textarea>
+                            </div>
                         <button>Submit<i class='bx bx-send'></i></button>
                     </form>
                 </div>
@@ -286,9 +297,9 @@
     <footer>
         <div class="footer">
         <div class="logo">
-            <a href="">B</a>Brooklyn
+            <a href="">B</a><span class="span">Brooklyn</span>
         </div>
-        <div>
+        <div class="foot">
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
@@ -299,7 +310,7 @@
                 <li><a href="">Contact</a></li>
             </ul>
         </div>
-        <div>Copyright © 2022 Picto.</div>
+        <div class="foot">Copyright © 2022 Picto.</div>
         </div>
     </footer>
 </body>
