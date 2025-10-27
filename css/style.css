@@ -798,13 +798,23 @@ padding-left: 1vw;
     
         .one {
             margin-left: 7vw;
-            margin-left: 7vw;
+            margin-right: 7vw;
         }
     
         .logo {
             padding: 1.2vw 0;
             padding-left: 7vw;
         }
+                 .logo a {
+                     text-decoration: none;
+                     border: 0.1rem solid #a53eff;
+                     background-color: #a53eff;
+                     color: white;
+                     padding: 0.6vw 1.3vw;
+                     margin-right: 0.9vw;
+                     border-radius: 50%;
+        
+                 }
                 .navbar {
                     display: flex;
                     gap: 16vw;
@@ -818,9 +828,9 @@ padding-left: 1vw;
             width: 45vw;
         }
         .intro img{
-            left: 1vw;
-            width: 47.3vw;
-            height: 51.5vw;
+            left: 2.5vw;
+            width: 50vw;
+            height: 56.5vw;
             padding-top: 5vw;
         }
     
@@ -834,7 +844,7 @@ padding-left: 1vw;
             width: 86vw;
             position: absolute;
             left: 7vw;
-            top: 63.8vw;
+            top: 67.8vw;
             box-shadow: 0 0 25px #ecebeb;
             z-index: 1;
         }
@@ -1222,7 +1232,7 @@ padding-left: 1vw;
             border-radius: 0.3vw;
             position: absolute;
             left: 7.2vw;
-            top: 521.5vw;
+            top: 527.5vw;
             box-shadow: 0 -3px 20px #dbdada;
         }
     
@@ -1314,26 +1324,624 @@ padding-left: 1vw;
     
         .footer {
             display: flex;
-            gap: 10vw;
+            gap: 8vw;
             color: white;
             background-color: #2b384b;
             padding-top: 10vw;
             padding-bottom: 2vw;
             margin-top: 52vw;
         }
-    
-        .footer ul {
-            display: flex;
-            gap: 1vw;
-        }
-    
-        .footer a {
+}
+
+
+@media (max-width:430px) {
+    body {
+        background-image: url(../images/BG.jpg);
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 100%;
+        font-family: 'Work Sans', sans-serif;
+    }
+
+    .one {
+        margin-left: 7vw;
+        margin-right: 6vw;
+    }
+
+    .logo {
+        padding: 2vw 0 1.2vw;
+        padding-left: 6vw;
+    }
+        .logo a {
             text-decoration: none;
+            border: 0.1rem solid #a53eff;
+            background-color: #a53eff;
             color: white;
+            padding: 0.5vw 1.8vw;
+            margin-right: 0.9vw;
+            border-radius: 50%;
+    
+        }
+        .navbar ol {
+            display: flex;
+            gap: 2.5vw;
+            padding: 1.2vw 0;
+            margin-left: 6vw;
+        }
+    .navbar {
+        display: block;
+        gap: 16vw;
+        background-color: white;
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .intro p {
+        font-size: 0.9rem;
+        width: 88vw;
+        padding-bottom: 4vw;
+    }
+    .intro{
+        flex-direction: column;
+        padding-top: 8vw;
+    }
+    .intro a{
+        padding: 1.2vw 1.8vw;
+        font-size: 0.9rem;
+    }
+    .intro img {
+        left: -18vw;
+        width: 122.5vw;
+        height: 120.5vw;
+        padding-top: 2vw;
+    }
+    .periods{
+        gap: 2vw;
+        margin-top: 2vw;
+        padding-bottom: 1vw;
+        padding-left: 0.4vw;
+    }
+    .about {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 5.5vw;
+        border: 0.1vw solid white;
+        padding: 6vw 5.5vw;
+        border-radius: 0.7vw;
+        background-color: white;
+        width: 86vw;
+        margin-top: 140vw;
+        box-shadow: 0 0 25px #ecebeb;
+        /* z-index: 1; */
+    }
+
+    .about .pics {
+        width: 73.9vw;
+        height: 82.5vw;
+        padding-left: 0.3vw;
+        position: relative;
+    }
+        .learn .bx-download {
+            font-size: 1.2rem;
+            position: relative;
+            top: 0.8vw;
+            left: -0.5vw;
         }
     
-        .foot {
-            padding: 1.8vw 0;
-            font-size: 0.7rem;
+        .learn a {
+            font-size: 0.9rem;
+            margin-right: 1.5vw;
+            padding: 1.2vw 2.5vw;
+            transition: 0.6s ease-in-out;
         }
+
+    .about p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        width: 75vw;
+        padding-bottom: 1vw;
+    }
+
+    .learn {
+        padding-top: 0;
+        padding-bottom: 1.5vw;
+    }
+    #add{
+        padding-bottom: 4.5vw;
+    }
+    .socials {
+        position: absolute;
+        left: 19vw;
+        font-size: 1.7rem;
+        top: 155vw;
+        background-color: white;
+        padding: 0.7vw 1.8vw 0.3vw;
+        border-radius: 0.3vw;
+        box-shadow: 0 2px 20px #c0bebe;
+        transition: 0.5s ease-in-out;
+    }
+
+    .gray {
+        background-color: #f0f1f3;
+        margin-top: 2vw;
+    }
+    #process2{
+        margin-top: 120vw;
+    }
+
+    .experience {
+        display: flex;
+        flex-direction: column;
+        padding-top: 18vw;
+        padding-bottom: 6vw;
+        gap: 3.7vw;
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+
+    .work {
+        margin-top: 3vw;
+    }
+
+    .work h3 {
+        font-size: 1.3rem;
+        font-weight: 505;
+        padding-bottom: 1.3vw;
+    }
+
+    .grid .bx {
+        font-size: 3rem;
+        color: #b975f5;
+        background-color: #f5e9fd;
+        padding: 1.5vw 2.5vw;
+        margin-bottom: 0.5vw;
+        border-radius: 0.3vw;
+        transition: 0.5s ease-in-out;
+    }
+
+    .grid .bx:hover {
+        color: white;
+        background-color: #a43dff;
+    }
+
+    .work p {
+        width: 85vw;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        padding-bottom: 1vw;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2.5vw;
+        margin-top: 2vw;
+        overflow: visible;
+    }
+
+    .grid h4 {
+        font-size: 1.15rem;
+        font-weight: 510;
+        padding-bottom: 1vw;
+    }
+
+    .grid p {
+        font-size: 0.9rem;
+        width: 84vw;
+        line-height: 1.5;
+    }
+
+    .dolor {
+        border: 0.1vw solid white;
+        padding: 1vw 1.5vw;
+        background-color: white;
+        border-radius: 0.3vw;
+        padding: 4vw;
+    }
+
+    .dolor2 {
+        border: 0.1vw solid white;
+        padding: 1vw 1.5vw;
+        background-color: white;
+        border-radius: 0.3vw;
+        padding: 4vw;
+    }
+
+    .portfolio {
+        margin-left: 7vw;
+        margin-right: 7vw;
+        margin-top: 4vw;
+        padding-bottom: 2vw;
+    }
+
+    .portfolio h3 {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 510;
+        letter-spacing: 0.03vw;
+        padding-bottom: 0.9vw;
+    }
+
+    .portfolio p {
+        text-align: center;
+        font-size: 0.78rem;
+        line-height: 1.5;
+        padding-bottom: 2.5vw;
+    }
+
+    .grids {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 3.5vw;
+        gap: 3vw;
+        width: 87vw;
+    }
+
+    .grids img {
+        width: 40vw;
+        height: 20vw;
+        padding-bottom: 1vw;
+    }
+
+    .grids p {
+        text-align: start;
+        padding-bottom: 0.6vw;
+        font-size: 0.78rem;
+        margin-left: 0.9vw;
+        padding-top: 1vw;
+    }
+
+    .cards h4 {
+        margin-left: 0.9vw;
+        font-weight: 510;
+    }
+
+    .cards h6 {
+        margin-left: 0.9vw;
+        font-weight: 500;
+        padding-bottom: 0.3vw;
+    }
+
+    .cards {
+        border: 0.1vw solid #e9e8e9;
+        width: 40vw;
+        border-radius: 0.45vw;
+        margin-bottom: 1.2vw;
+        padding-bottom: 2vw;
+        transition: 0.3s ease-in-out;
+    }
+
+    .bx-right-arrow-alt {
+        font-size: 1rem;
+        position: relative;
+        top: 0.5vw;
+    }
+
+    #more {
+        text-decoration: none;
+        color: white;
+        border: 0.1vw solid #a43dff;
+        background-color: #a43dff;
+        padding: 0.5vw 1vw;
+        font-size: 0.8rem;
+        border-radius: 0.3vw;
+        margin-left: 36.5vw;
+        position: relative;
+        top: -1.5vw;
+    }
+
+
+    .idea {
+        background-color: #132239;
+        text-align: center;
+        color: white;
+        padding-bottom: 3.5vw;
+    }
+
+    .idea h2 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding-top: 5vw;
+        padding-bottom: 2vw;
+        letter-spacing: 0.04vw;
+    }
+
+    .idea p {
+        font-size: 0.78rem;
+        line-height: 1.5;
+        padding-bottom: 1vw;
+    }
+
+    .idea a {
+        color: white;
+        text-decoration: none;
+        border: 0.1vw solid #a43dff;
+        background-color: #a43dff;
+        padding: 0.5vw 1vw;
+        font-size: 0.75rem;
+        border-radius: 0.3vw;
+    }
+
+    .blog {
+        margin-left: 7.5vw;
+        margin-right: 7.5vw;
+        margin-top: 4vw;
+    }
+
+    .blog h3 {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 550;
+        letter-spacing: 0.02vw;
+        padding-bottom: 0.9vw;
+        font-family: sans-serif;
+    }
+
+    .blog p {
+        text-align: center;
+        font-size: 0.78rem;
+        line-height: 1.5;
+        padding-bottom: 2vw;
+    }
+
+    .flex {
+        display: flex;
+        gap: 1.5vw;
+        padding-bottom: 1vw;
+        padding-top: 1vw;
+    }
+
+    .flex img {
+        width: 20vw;
+        height: 12.5vw;
+    }
+
+    .flex p {
+        text-align: start;
+        font-weight: 500;
+        padding-left: 1.2vw;
+    }
+
+    .flex h6 {
+        font-size: 0.6rem;
+        font-weight: 100;
+        padding-bottom: 0.8vw;
+        padding-top: 0.8vw;
+        padding-left: 1.2vw;
+        color: #0707079c;
+    }
+
+    .blogs {
+        border: 0.1vw solid #ecebeb;
+    }
+
+    .blogs:hover {
+        background-color: white;
+        border: 0.1vw solid #fcfbfb;
+        box-shadow: 0 0 15px #e9e8e9;
+    }
+
+    .pagination {
+        text-align: center;
+    }
+
+    .paginations {
+        text-align: center;
+        padding: 2vw 0 0;
+    }
+
+    .works {
+        display: flex;
+        gap: 9vw;
+        padding-top: 8vw;
+        padding-bottom: 5vw;
+        margin-left: 7.3vw;
+        margin-right: 7.3vw;
+    }
+
+    .works p {
+        font-size: 0.78rem;
+        width: 38vw;
+        line-height: 1.5;
+    }
+
+    .done {
+        padding-top: 7vw;
+    }
+
+    .done p {
+        font-size: 0.78rem;
+        padding-bottom: 1vw;
+        width: 35vw;
+        line-height: 1.5;
+    }
+
+    .client {
+        margin-left: 6vw;
+        margin-right: 7vw;
+    }
+
+    .client h3 {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 510;
+        letter-spacing: 0.02vw;
+        padding-bottom: 0.9vw;
+        margin-top: 5vw;
+    }
+
+    .client p {
+        text-align: center;
+        font-size: 0.78rem;
+        line-height: 1.5;
+    }
+
+    .clients {
+        display: flex;
+        gap: 2vw;
+    }
+
+    .clients img {
+        width: 15vw;
+    }
+
+    .review {
+        margin-bottom: 0;
+    }
+
+    .review p {
+        text-align: center;
+        font-size: 0.78rem;
+        line-height: 1.5;
+    }
+
+    .customer-review {
+        padding-top: 2.2vw;
+        font-weight: 490;
+    }
+
+    .review .customer-name {
+        padding-top: 1vw;
+        padding-bottom: 0.3vw;
+        font-weight: 505;
+        font-size: 1rem;
+    }
+
+
+    .contact {
+        display: flex;
+        margin-top: 600vw;
+        padding-bottom: 2vw;
+        gap: 4vw;
+        width: 86vw;
+        padding: 3vw 2.5vw 0;
+        background-color: white;
+        border: 0.1px solid #fcf9f9;
+        border-radius: 0.3vw;
+        /* position: absolute;
+        left: 7.2vw;
+        top: 581.5vw; */
+        box-shadow: 0 -3px 20px #dbdada;
+    }
+
+    .discuss {
+        margin-bottom: 4vw;
+    }
+
+    .bottom-margin {
+        margin-bottom: 1vw;
+        padding: 0.3vw 0;
+    }
+
+    .discuss h3 {
+        font-weight: 510;
+        letter-spacing: 0.02vw;
+        padding-bottom: 0.9vw;
+        font-size: 1.4rem;
+    }
+
+    .contact p {
+        font-size: 0.78rem;
+        line-height: 1.5;
+        padding-bottom: 1vw;
+    }
+
+    .form p {
+        padding-bottom: 3.5vw;
+        padding-top: 0.5vw;
+    }
+
+    .laptop {
+        display: none;
+    }
+
+    .tablet {
+        display: block;
+    }
+
+    .icons {
+        padding-top: 1vw;
+    }
+
+    .location .where {
+        font-weight: 490;
+        padding-left: 4.9vw;
+    }
+
+    .location {
+        font-size: 0.8rem;
+        padding-bottom: 0.8vw;
+        padding-top: -1vw;
+        padding-left: 1vw;
+        width: 25vw;
+    }
+
+    .fa-location-dot {
+        font-size: 1.3rem;
+        position: relative;
+        top: 1.7vw;
+        border: 0.1vw solid #f5e9fd;
+        color: #a43dff;
+        background-color: #f5e9fd;
+        padding: 0.5vw 0.8vw;
+        border-radius: 0.3vw;
+        transition: 0.5 ease-in-out;
+    }
+
+    .form .input {
+        border-bottom: 0.13vw solid #c0bebe;
+        width: 30vw;
+        margin-bottom: 1vw;
+        overflow: hidden;
+        transition: 0.3s ease-in-out;
+        height: 4vw;
+    }
+
+    .input2 {
+        display: flex;
+        gap: 1vw;
+        width: 30vw;
+        height: 4vw;
+    }
+
+    .contact button {
+        padding: 0.5vw 1.2vw 1vw;
+        font-size: 0.78rem;
+        border-radius: 0.3vw;
+        margin-top: 2vw;
+    }
+
+    .bx-send {
+        font-size: 1rem;
+        position: relative;
+        top: 0.7vw;
+        left: 0.3vw;
+    }
+
+    .footer {
+        display: flex;
+        gap: 10vw;
+        color: white;
+        background-color: #2b384b;
+        padding-top: 10vw;
+        padding-bottom: 2vw;
+        margin-top: 52vw;
+    }
+
+    .footer ul {
+        display: flex;
+        gap: 1vw;
+    }
+
+    .footer a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .foot {
+        padding: 1.8vw 0;
+        font-size: 0.7rem;
+    }
 }
