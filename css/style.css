@@ -4,6 +4,8 @@
     overflow-x: hidden;
     overflow-y: auto;
     box-sizing: border-box;
+    scroll-padding-top: 22vw;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -484,6 +486,13 @@ border: 0.08rem solid #a53eff;
     border: 0.1vw solid #fcfbfb;
     box-shadow: 0 0 15px #e9e8e9;
 }
+.pagination{
+    text-align: center;
+}
+.paginations{
+    text-align: center;
+    padding: 2vw 0 0;
+}
 
 .works{
     display: flex;
@@ -606,8 +615,8 @@ text-decoration: none;
     border: 0.1px solid #fcf9f9;
     border-radius: 0.3vw;
     position: absolute;
-    left: 17.5vw;
-    top: 335vw;
+    left: 17.2vw;
+    top: 341vw;
     box-shadow: 0 -3px 20px #dbdada;
 }
 .discuss{
