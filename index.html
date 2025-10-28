@@ -19,7 +19,7 @@
             <div class="logo">
                 <a href="">B</a><span class="span">Brooklyn</span>
             </div>
-            <ol>
+            <ol class="navlinks">
                 <li><a href="#home1" id="home">Home</a></li>
                 <li><a href="#about2" id="about">About</a></li>
                 <li><a href="#process2" id="Process">Process</a></li>
@@ -28,6 +28,11 @@
                 <li><a href="#services2" id="services">Services</a></li>
                 <li><a href="#contact2" id="contact">Contact</a></li>
             </ol>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
     <main>
@@ -114,42 +119,54 @@
                     <h6 class="design">UI-UX DESIGN</h6>
                     <h4 class="product">Product Admin Dashboard</h4>
                     <p class="ante">Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
-                    <a href="">Case Study<i class='bx bx-right-arrow-alt'></i></a>
+                    <div class="case">
+                        <a href="">Case Study<i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
                 </div>
                 <div class="cards">
                     <img src="./images/portfolio2.png" alt="Designs">
                     <h6 class="design">UI-UX DESIGN</h6>
                     <h4 class="product">Product Admin Dashboard</h4>
                     <p class="ante">Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
-                    <a href="">Case Study<i class='bx bx-right-arrow-alt'></i></a>
+                    <div class="case">
+                        <a href="">Case Study<i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
                 </div>
                 <div class="cards">
                     <img src="./images/portfolio3.png" alt="Designs">
                     <h6 class="design">UI-UX DESIGN</h6>
                     <h4 class="product">Product Admin Dashboard</h4>
                     <p class="ante">Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
-                    <a href="">Case Study<i class='bx bx-right-arrow-alt'></i></a>
+                    <div class="case">
+                        <a href="">Case Study<i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
                 </div>
                 <div class="cards">
                     <img src="./images/portfolio4.png" alt="Designs">
                     <h6 class="design">UI-UX DESIGN</h6>
                     <h4 class="product">Product Admin Dashboard</h4>
                     <p class="ante">Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
-                    <a href="">Case Study<i class='bx bx-right-arrow-alt'></i></a>
+                    <div class="case">
+                        <a href="">Case Study<i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
                 </div>
                 <div class="cards">
                     <img src="./images/portfolio5.png" alt="Designs">
                     <h6 class="design">UI-UX DESIGN</h6>
                     <h4 class="product">Product Admin Dashboard</h4>
                     <p class="ante">Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
-                    <a href="">Case Study<i class='bx bx-right-arrow-alt'></i></a>
+                    <div class="case">
+                        <a href="">Case Study<i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
                 </div>
                 <div class="cards">
                     <img src="./images/portfolio6.png" alt="Designs">
                     <h6 class="design">UI-UX DESIGN</h6>
                     <h4 class="product">Product Admin Dashboard</h4>
                     <p class="ante">Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
-                    <a href="">Case Study<i class='bx bx-right-arrow-alt'></i></a>
+                    <div class="case">
+                        <a href="">Case Study<i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
                 </div>
             </div>
             <a href="" id="more">More Project</a>
@@ -158,6 +175,9 @@
             <h2>Do you have Project Idia?<br>Let's discuss your project!</h2>
             <p class="laptop">There are many variations of passages of Lorem Ipsum available,<br>but the majority have suffered alteration.</p>
             <p class="tablet">There are many variations of passages of Lorem Ipsum <br>available, but the majority have suffered alteration.</p>
+            <p class="mobile">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration.</p>
+
             <a href="">Let's work together<i class='bx bx-right-arrow-alt'></i></a>
         </section>
         <section class="blog" id="blog2">
@@ -244,6 +264,12 @@
                 Curabitur imperdiet semper arcu, a finibus arcu suscipit in. Donec quis placerat nibh. <br>Maecenas est purus, eleifend ac
                 cursus sed, tincidunt ut sapien. <br>Morbi ornare elit at libero suscipit porta.”
             </p>
+            <p class="customer-review2">
+                “Nulla efficitur nisl sit amet velit malesuada dapibus. Duis mollis felis turpis, nec semper odio convallis at.
+                Curabitur imperdiet semper arcu, a finibus arcu suscipit in. Donec quis placerat nibh. Maecenas est purus,
+                eleifend ac
+                cursus sed, tincidunt ut sapien. Morbi ornare elit at libero suscipit porta.”
+            </p>
             <p class="customer-name">Esther Howard</p>
             <p class="customer-postion">Managing Director, ABC company</p>
             <div class="paginations"><img src="./images/Pagination.png" alt="pagination"></div>
@@ -302,7 +328,11 @@
                                     <input type="text" name="subject" id="subject">
                                 </div>
                             </div>
-                            <div class="input">
+                            <div class="input3">
+                                <label for="Message">Message*</label>
+                                <textarea name="Message" id="Message"></textarea>
+                            </div>
+                            <div class="input4">
                                 <label for="Message">Message*</label>
                                 <textarea name="Message" id="Message"></textarea>
                             </div>
@@ -328,8 +358,9 @@
                 <li><a href="">Contact</a></li>
             </ul>
         </div>
-        <div class="foot">Copyright © 2022 Picto.</div>
+        <div class="foot" id="copy">Copyright © 2022 Picto.</div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
