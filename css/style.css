@@ -374,7 +374,7 @@ border: 0.08rem solid #a53eff;
 }
 .grids p{
     text-align: start;
-    padding-bottom: 0.6vw;
+    padding-bottom: 0.4vw;
     font-size: 0.7rem;
     margin-left: 0.9vw;
     padding-top: 1vw;
@@ -412,6 +412,11 @@ border: 0.08rem solid #a53eff;
     border-radius: 0.3vw;
     transition: 0.5s ease-in-out;
 }
+.case {
+    padding-bottom: 1vw;
+    padding-top: 1.5vw;
+}
+
 .bx-right-arrow-alt{
     font-size: 1rem;
     position: relative;
