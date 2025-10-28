@@ -1558,7 +1558,7 @@ padding-left: 1vw;
 
     .portfolio h3 {
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         font-weight: 510;
         letter-spacing: 0.03vw;
         padding-bottom: 0.9vw;
@@ -1566,47 +1566,49 @@ padding-left: 1vw;
 
     .portfolio p {
         text-align: center;
-        font-size: 0.78rem;
+        font-size: 0.9rem;
         line-height: 1.5;
         padding-bottom: 2.5vw;
     }
 
     .grids {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         margin-bottom: 3.5vw;
+        padding-bottom: 5vw;
         gap: 3vw;
         width: 87vw;
     }
 
     .grids img {
-        width: 40vw;
-        height: 20vw;
+        width: 85vw;
+        height: 42vw;
         padding-bottom: 1vw;
     }
 
     .grids p {
         text-align: start;
-        padding-bottom: 0.6vw;
-        font-size: 0.78rem;
-        margin-left: 0.9vw;
+        padding-top: 1vw;
+        padding-bottom: 2vw;
+        font-size: 0.9rem;
+        margin-left: 3vw;
         padding-top: 1vw;
     }
 
     .cards h4 {
-        margin-left: 0.9vw;
+        margin-left: 3vw;
         font-weight: 510;
     }
 
     .cards h6 {
-        margin-left: 0.9vw;
+        margin-left: 3vw;
         font-weight: 500;
         padding-bottom: 0.3vw;
     }
 
     .cards {
         border: 0.1vw solid #e9e8e9;
-        width: 40vw;
+        width: 85.5vw;
         border-radius: 0.45vw;
         margin-bottom: 1.2vw;
         padding-bottom: 2vw;
@@ -1616,7 +1618,7 @@ padding-left: 1vw;
     .bx-right-arrow-alt {
         font-size: 1rem;
         position: relative;
-        top: 0.5vw;
+        top: 0.7vw;
     }
 
     #more {
@@ -1624,8 +1626,8 @@ padding-left: 1vw;
         color: white;
         border: 0.1vw solid #a43dff;
         background-color: #a43dff;
-        padding: 0.5vw 1vw;
-        font-size: 0.8rem;
+        padding: 1vw 1.5vw;
+        font-size: 1.2rem;
         border-radius: 0.3vw;
         margin-left: 36.5vw;
         position: relative;
