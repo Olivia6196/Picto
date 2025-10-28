@@ -4,7 +4,7 @@
     overflow-x: hidden;
     overflow-y: auto;
     box-sizing: border-box;
-    scroll-padding-top: 2vw;
+    scroll-padding-top: 5vw;
     scroll-behavior: smooth;
 }
 
@@ -156,6 +156,11 @@ border: 0.08rem solid #a53eff;
     font-size: 0.7rem;
     line-height: 1.7;
     padding-bottom: 1.5vw;
+}
+.intro .highlight{
+    text-decoration: line-through;
+     text-decoration-color: #f32f2f50;
+     text-decoration-thickness: 0.25vw;
 }
 .intro a{
     text-decoration: none;
@@ -655,7 +660,7 @@ text-decoration: none;
     border-radius: 0.3vw;
     position: absolute;
     left: 17.2vw;
-    top: 341vw;
+    top: 346vw;
     box-shadow: 0 -3px 20px #dbdada;
 }
 .discuss{
@@ -881,17 +886,32 @@ padding-left: 1vw;
                     width: 100%;
                     z-index: 10;
                 }
+                                .intro h2 {
+                                    font-size: 2rem;
+                                }
         .intro p{
             font-size: 0.78rem;
             width: 45vw;
         }
+               
+                 .intro .highlight {
+                     text-decoration: line-through;
+                     text-decoration-color: #f32f2fe0;
+                     text-decoration-thickness: 0.35vw;
+                 }
         .intro img{
             left: 2.5vw;
             width: 50vw;
             height: 56.5vw;
             padding-top: 5vw;
         }
-    
+                .period {
+                    border: 0.1vw solid #f7ebff;
+                    background-color: #f7ebff;
+                    padding: 0.5vw 1.5vw;
+                    border-radius: 0.4vw;
+                }
+               
         .about {
             display: flex;
             gap: 5.5vw;
@@ -1465,6 +1485,12 @@ padding-left: 1vw;
         padding-bottom: 1vw;
         padding-left: 0.4vw;
     }
+        .period {
+            border: 0.1vw solid #f7ebff;
+            background-color: #f7ebff;
+            padding: 0.5vw 2vw;
+            border-radius: 0.4vw;
+        }
     .about {
         display: flex;
         flex-direction: column-reverse;
@@ -2136,7 +2162,18 @@ padding-left: 1vw;
             height: 122.5vw;
             padding-top: 2vw;
         }
-
+     .periods{
+        border-radius: 1vw;
+     }
+         .period {
+             border: 0.1vw solid #f7ebff;
+             background-color: #f7ebff;
+             padding: 0.6vw 2.2vw;
+             border-radius: 0.4vw;
+         }
+     .intro a{
+        border-radius: 1vw;
+     }
     .about {
         display: flex;
         flex-direction: column-reverse;
@@ -2148,7 +2185,6 @@ padding-left: 1vw;
         width: 86vw;
         margin-top: 160vw;
         box-shadow: 0 0 25px #ecebeb;
-        /* z-index: 1; */
     }
 
     .about .pics {
@@ -2161,7 +2197,7 @@ padding-left: 1vw;
     .learn .bx-download {
         font-size: 1.2rem;
         position: relative;
-        top: 0.8vw;
+        top: 0.9vw;
         left: -0.5vw;
     }
 
@@ -2169,6 +2205,7 @@ padding-left: 1vw;
         font-size: 0.9rem;
         margin-right: 1.5vw;
         padding: 1.2vw 2.5vw;
+        border-radius: 1vw;
         transition: 0.6s ease-in-out;
     }
 
@@ -2194,8 +2231,8 @@ padding-left: 1vw;
         font-size: 1.7rem;
         top: 165.5vw;
         background-color: white;
-        padding: 0.7vw 1.8vw 0.3vw;
-        border-radius: 0.3vw;
+        padding: 1vw 1.8vw 0.3vw;
+        border-radius: 1vw;
         box-shadow: 0 2px 20px #c0bebe;
         transition: 0.5s ease-in-out;
     }
@@ -2235,7 +2272,7 @@ padding-left: 1vw;
         background-color: #f5e9fd;
         padding: 1.5vw 2.5vw;
         margin-bottom: 0.5vw;
-        border-radius: 0.3vw;
+        border-radius: 1.1vw;
         transition: 0.5s ease-in-out;
     }
 
@@ -2275,7 +2312,7 @@ padding-left: 1vw;
         border: 0.1vw solid white;
         padding: 1vw 1.5vw;
         background-color: white;
-        border-radius: 0.3vw;
+        border-radius: 1vw;
         padding: 3vw;
     }
 
@@ -2283,7 +2320,7 @@ padding-left: 1vw;
         border: 0.1vw solid white;
         padding: 1vw 1.5vw;
         background-color: white;
-        border-radius: 0.3vw;
+        border-radius: 1vw;
         padding: 3vw;
     }
 
@@ -2359,7 +2396,7 @@ padding-left: 1vw;
        color: #a43cff;
        padding: 0.8vw 1.5vw;
        font-size: 0.72rem;
-       border-radius: 0.3vw;
+       border-radius: 1vw;
        transition: 0.5s ease-in-out;
    }
    .case{
@@ -2378,7 +2415,7 @@ padding-left: 1vw;
         background-color: #a43dff;
         padding: 1vw 2.2vw;
         font-size: 1.2rem;
-        border-radius: 0.3vw;
+        border-radius: 1vw;
         margin-left: 25.5vw;
         position: relative;
         top: -1.5vw;
@@ -2419,7 +2456,7 @@ padding-left: 1vw;
      background-color: #a43dff;
      padding: 1.2vw 2.5vw;
      font-size: 1.1rem;
-     border-radius: 0.3vw;
+     border-radius: 1vw;
  }
 
  .blog {
@@ -2519,7 +2556,7 @@ padding-left: 1vw;
      border: 0.1vw solid white;
      background-color: white;
      padding: 3vw 2vw;
-     border-radius: 0.3vw;
+     border-radius: 1vw;
      transition: 0.5s ease-in-out;
  }
  .user h4{
@@ -2534,7 +2571,7 @@ padding-left: 1vw;
      background-color: #a53eff;
      padding: 1.2vw 2.5vw;
      font-size: 0.9rem;
-     border-radius: 0.3vw;
+     border-radius: 1vw;
  }
 
  .client {
@@ -2559,11 +2596,13 @@ padding-left: 1vw;
 
  .clients {
      display: flex;
-     gap: 1vw;
+     flex-wrap: wrap;
+     gap: -1vw;
+     margin-left: 6vw;
  }
 
  .clients img {
-     width: 15vw;
+     width: 25vw;
  }
 
  .review {
@@ -2598,14 +2637,14 @@ padding-left: 1vw;
  .contact {
      display: flex;
      flex-direction: column;
-     margin-top: 1373vw;
+     margin-top: 1410vw;
      padding-bottom: 6vw;
      gap: 4vw;
      width: 86vw;
      padding: 3vw 2.5vw 0;
      background-color: white;
      border: 0.1px solid #fcf9f9;
-     border-radius: 0.3vw;
+     border-radius: 1vw;
      box-shadow: 0 -3px 20px #dbdada;
  }
 
@@ -2681,7 +2720,7 @@ padding-left: 1vw;
      color: #a43dff;
      background-color: #f5e9fd;
      padding: 1.3vw 2.5vw;
-     border-radius: 0.3vw;
+     border-radius: 1vw;
      transition: 0.5 ease-in-out;
  }
 
@@ -2730,7 +2769,7 @@ padding-left: 1vw;
  .contact button {
      padding: 1vw 2vw 1.5vw;
      font-size: 1rem;
-     border-radius: 0.3vw;
+     border-radius: 1vw;
      margin-top: 8vw;
      margin-left: 2vw;
  }
@@ -2738,7 +2777,7 @@ padding-left: 1vw;
  .bx-send {
      font-size: 1.2rem;
      position: relative;
-     top: 0.8vw;
+     top: 0.9vw;
      left: 0.8vw;
  }
 
