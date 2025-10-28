@@ -65,33 +65,7 @@ body{
     font-size: 0.82rem;
     transition: 0.3s ease-in-out;
 }
-.hamburger{
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-    margin-left: 85vw;
-    margin-top: -5.5vw;
-    margin-bottom: 1.5vw;
-    transition: all 0.3s ease-in-out;
-}
-.hamburger span{
-    height: 0.5vw;
-    width: 7vw;
-    background: #a43dff;
-    margin: 0.6vw;
-    padding-bottom: 1vw;
-    border-radius: 0.5vw;
-    transition: all 0.4s ease;
-}
-.hamburger.active span:nth-child(1){
-   transform: rotate(45deg) translate(0.5vw,0.5vw);
-}
-.hamburger.active span:nth-child(2){
-    opacity: 0;
-}
-.hamburger.active span:nth-child(3){
-     transform: rotate(-45deg) translate(0.5vw,-0.5vw);
-}
+
 
 .navbar ol a:hover{
     color: white;
@@ -137,6 +111,42 @@ border: 0.08rem solid #a53eff;
     background-color: #a53eff;
     padding: 0.3vw 0.8vw;
     border-radius: 0.3vw;
+}
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    position: fixed;
+    overflow: hidden;
+    right: 8vw;
+    margin-top: -6.5vw;
+    margin-bottom: 2vw;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburger span {
+    height: 0.5vw;
+    width: 7vw;
+    background: #a43dff;
+    margin: 0.6vw;
+    padding-bottom: 0.5vw;
+    border-radius: 0.5vw;
+    transition: all 0.4s ease;
+    transform-origin: center;
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(1.1vw, 0.9vw);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+    transform: scaleX(0);
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(1.1vw, -0.9vw);
 }
 
 .intro{
@@ -2144,7 +2154,6 @@ padding-left: 1vw;
     
          .hamburger {
              display: flex;
-             margin-left: 87vw;
          }
     .intro p {
         font-size: 0.9rem;
