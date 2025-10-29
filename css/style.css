@@ -167,10 +167,10 @@ border: 0.08rem solid #a53eff;
     line-height: 1.7;
     padding-bottom: 1.5vw;
 }
-.intro .highlight{
-    text-decoration: line-through;
-     text-decoration-color: #f32f2f50;
-     text-decoration-thickness: 0.25vw;
+.highlight{
+    background-color: #ff00001e;
+    font-weight: 490;
+    height: 0.4vw;
 }
 .intro a{
     text-decoration: none;
@@ -903,12 +903,6 @@ padding-left: 1vw;
             font-size: 0.78rem;
             width: 45vw;
         }
-               
-                 .intro .highlight {
-                     text-decoration: line-through;
-                     text-decoration-color: #f32f2fe0;
-                     text-decoration-thickness: 0.35vw;
-                 }
         .intro img{
             left: 2.5vw;
             width: 50vw;
@@ -2159,7 +2153,9 @@ padding-left: 1vw;
          }
     .intro p {
         font-size: 0.9rem;
-        width: 88vw;
+        letter-spacing: 0.03vw;
+        word-spacing: 0.1vw;
+        width: 88.5vw;
         padding-bottom: 4vw;
     }
 
